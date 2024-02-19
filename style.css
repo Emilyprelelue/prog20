@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: komigo;
+    src: url(/komyca/Komyca3Dfreeversion-Italic.ttf);
+}
+
+@font-face{
+    font-family: luis;
+    src: url(/louis_george_cafe/Louis\ George\ Cafe.ttf)
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/3423797-abstrato-preto-design-de-tecnologia-fundo-com-brilhos-brancos-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    padding: 20px;
+    font-family: komigo;
+}
+
+h1{
+    color: aliceblue;
+    margin-left: 10%;
+    font-size: 60px;
+}
+
+.p1{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-family: luis;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+}
+
+.anima{
+    width: 250px;
+    bottom: 5px;
+    animation: anima 0.7s alternate infinite;
+    margin-right: 15%;
+}
+
+main{
+    display: flex;
+}
+
+p.p2{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: luis;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1{
+    width: 700px;
+    margin-left: 5%;
+}
+
+.div1 iframe{
+    position: absolute;
+}
+
+.div1 cite p{
+    color: white;
+    font-size: 20px;
+    padding-top: 1%;
+    margin-right: 50%;
+    padding-left: 5%;
+    font-family: luis;
+}
+
+section{
+    display: flex;
+    position: relative;
+}
+
+section input{
+    position: absolute;
+    width: 300px;
+    margin-left: 200px !important;
+    margin-top: 100px;
+}
+
+input{
+    width: 50px;
+    height: 100px;
+    color: rgb(0, 98, 255);
+    font-size: 20px;
+}
+
+iframe{
+    margin-left: 50%;
+    margin-right: 5%;
+}
+
+@keyframes anima {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+footer{
+    text-align: left;
+    font-family: komigo;
+    font-size: 15px;
+    color: aliceblue;
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    margin-left: 5%;
+}  
+
+@media (max-width: 750px){
+body{
+    background-image: url(/prog.jpg);
+    background-size: 1000px;
+}
+
+h1{
+    font-size: 25px;
+    margin-left: 3%;
+}
+
+.p1{
+    font-size: 15px;
+    margin-right: 5%;
+}
+
+p.p2{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+.img1{
+    width: 200px;
+    height: 100px;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    position: absolute;
+    top: 45%;
+}
+
+main{
+    flex-direction: column;
+}
+
+.div1{
+    top: 10%;
+}
+
+.div1 cite p{
+    font-size: 15px;
+}
+
+.div2{
+    flex-direction: column;
+}
+
+.anima{
+    width: 100px;
+    height: 100px;
+}
+
+iframe{
+    width: 150px;
+    height: 100px;
+}
+
+section input{
+    width: 100px;
+    height: 80px;
+    margin-left: 50%;
+
+}
+}
+
+
+
+
